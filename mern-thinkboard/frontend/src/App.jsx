@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import "./App.css";
 import HomePage from "./pages/HomePage";
@@ -13,7 +13,7 @@ const App = () => {
     <div data-theme="forest">
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/create" element={<CreatePage />}></Route>
+        {/* <Route path="/create" element={<CreatePage />}></Route> */}
         <Route path="/note/:id" element={<NoteDetailPage />}></Route>
       </Routes>
     </div>
