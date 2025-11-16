@@ -1,0 +1,33 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(197, 183, 183, 0.5);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: black;
+  width: min(90vw, 600px);
+  overflow-y: auto;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.modal-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 6px;
+  box-sizing: border-box;
+}
